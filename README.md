@@ -13,4 +13,14 @@ Make sure the files are in the router folder and have the name you want reflecte
   npm  install
 ```
 
+## Running App
+
+To run app, run the following command
+
+```bash
+  npm run dev
+```
+
+
+
 
