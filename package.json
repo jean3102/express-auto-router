@@ -5,12 +5,19 @@
 	"type": "module",
 	"main": "index.js",
 	"scripts": {
-		"dev": "node src/server.js"
+		"dev": "node src/server.js",
+		"test": "semistandard && node my-normal-tests-littered-with-semicolons.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"semistandard": "^17.0.0"
+	},
+	"eslintConfig": {
+		"extends": "semistandard"
 	}
 }

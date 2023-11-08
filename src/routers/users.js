@@ -3,8 +3,7 @@ import { Router } from 'express';
 const users = Router();
 
 users.get('/', (req, res) => {
-	res.send('users');
+  res.send('users');
 });
-
 
 export default users;
